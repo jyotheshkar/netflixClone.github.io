@@ -267,6 +267,9 @@ header .logo img {
 }
 
 @media(max-width: 600px) {
+    .banner .bg{
+        object-fit: scale-down;
+    }
     header {
         padding: 20px;
     }
