@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Netflix | Watch Tv Shown Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="/netflix.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<meta>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="/logo.png" alt="Netflix"></a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tv Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="/bg2.jpg" alt="Background" class="bg">
+        <div class="content">
+            <img src="/name.png" class="MovieTitle">
+            <h4>
+                <span>2020</span>
+                <span><i>12+</i></span>
+                <span>1h 55min</span>
+                <span>Action</span>
+            </h4>
+            <p>Imperial soldiers arrive in Mulan's village to enlist recruits and Zhou is forced to pledge his service as he has no sons, immediately falling over in front of the soldiers due to his crippled leg. Realizing that her father has no chance of
+                survival, Mulan cuts her hair, flees with his armor, horse, and sword to join in his place.</p>
+            <div class="btn">
+                <a href="#"><i class="fas fa-play"></i>Play</a>
+                <a href="#"><i class="fas fa-plus"></i>My List</a>
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo();"><img src="/play.png">Watch Trailer</a>
+    </div>
+    <div class="trailer">
+        <video src="/trailer.mp4" controls="true"></video>
+        <img src="/close.png" alt="close" class="close" onclick="toggleVideo();">
+    </div>
+    <script src="/netflix.js"></script>
+</body>
+
+</html>
